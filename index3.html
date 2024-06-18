@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            overflow-y: hidden;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .contener{
+            width: 100%;
+            height: 32vh ;
+            background-color: silver;
+        }
+        .contener1{
+            width: 100%;
+            height: 68vh;
+            background-color: black;
+        }
+        .pop1 , .pop2 , .pop3  , .pop4 , .pop5{
+            width: 37vh;
+            height: 26vh;
+        }
+        .pop6 , .pop7 , .pop8  , .pop9 , .pop11{
+           display: none;
+        }
+        .pop6{
+            position: relative;
+            top: -50px;
+            left: 450px;
+        }
+        .pop7{
+            position: relative;
+            top: 30px;
+            left: 450px;
+        }
+        .pop8{
+            position: relative;
+            top: 30px;
+            left: 450px;
+        }
+        .pop9{
+            position: relative;
+            top: 30px;
+            left: 450px;
+        }
+        .pop11{
+            position: relative;
+            top: 30px;
+            left: 450px;
+        }
+    </style>
+    <div class="contener">
+        <img class="pop1" src="./5baa4b500fa732ecc3c790c2032e8510-removebg-preview.png" alt="">
+        <img class="pop2" src="./maxresdefault-removebg-preview.png" alt="">
+        <img class="pop3" src="./RsJZNIWhCBdoOWiUgVd2awk8WGO-IjqH-removebg-preview (1).png" alt="">
+        <img class="pop4" src="./top-14-samyh-bol-shih-samoletov-v-mire-na-2022-god-6-removebg-preview.png" alt="">
+        <img class="pop5" src="./rLrE2SmmAj9TE-0QuoEFxHdzij-s6ndp__1_-removebg-preview.png" alt="">
+    </div>
+    <div class="contener1">
+        <img class="pop6" src="./5baa4b500fa732ecc3c790c2032e8510-removebg-preview.png" alt="">
+        <img class="pop7" src="./maxresdefault-removebg-preview.png" alt="">
+        <img class="pop8" src="./RsJZNIWhCBdoOWiUgVd2awk8WGO-IjqH-removebg-preview (1).png" alt="">
+        <img class="pop9" src="./top-14-samyh-bol-shih-samoletov-v-mire-na-2022-god-6-removebg-preview.png" alt="">
+        <img class="pop11" src="./rLrE2SmmAj9TE-0QuoEFxHdzij-s6ndp__1_-removebg-preview.png" alt="">
+    </div>
+    <script>
+            let pop1 = document.querySelector(".pop1")
+            let pop2 = document.querySelector(".pop2")
+            let pop3 = document.querySelector(".pop3")
+            let pop4 = document.querySelector(".pop4")
+            let pop5 = document.querySelector(".pop5")
+            let pop6 = document.querySelector(".pop6")
+            let pop7 = document.querySelector(".pop7")
+            let pop8 = document.querySelector(".pop8")
+            let pop9 = document.querySelector(".pop9")
+            let pop11 = document.querySelector(".pop11")
+
+            pop1.addEventListener("click" , () => {
+                pop6.style.display = "block"
+                pop7.style.display = "none"
+                pop8.style.display = "none"
+                pop9.style.display = "none"
+                pop11.style.display = "none"
+
+
+
+            })
+            pop2.addEventListener("click" , () => {
+                pop7.style.display = "block"
+                pop6.style.display = "none"
+                pop8.style.display = "none"
+                pop9.style.display = "none"
+                pop11.style.display = "none"
+
+                
+            })
+            pop3.addEventListener("click" , () => {
+                   pop6.style.display = "none"
+                   pop7.style.display = "none"
+                   pop8.style.display = "block"
+                   pop9.style.display = "none"
+                   pop11.style.display = "none"
+
+                   
+            })
+            pop4.addEventListener("click" , () => {
+                   pop6.style.display = "none"
+                   pop7.style.display = "none"
+                   pop8.style.display = "none"
+                   pop9.style.display = "block"
+                   pop11.style.display = "none"
+
+            })
+            pop5.addEventListener("click" , () => {
+                   pop6.style.display = "none"
+                   pop7.style.display = "none"
+                   pop8.style.display = "none"
+                   pop9.style.display = "none"
+                   pop11.style.display = "block"
+            })
+            
+
+
+
+
+
+            
+
+
+    </script>
+</body>
+</html>
 
