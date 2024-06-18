@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+let mashina = prompt("mashina talang : Mers  , BMW , bugati , lambarjini  , chery")
+let mashinalar = {
+    mers:function(){
+   return  `ismim : Mersadens bens ; 
+yoshim : 98 ;
+ragim : qora , kumush rang ; 
+Malaka : Germaniya ;
+motorim : Mercedes M156 dvigateli ;`
+    },
+    bmw:function(){
+    return `ismim : BMW ;
+Qachon asos solingan : 1916-yil 7-mart ; 
+Turi : Ommaviy ;
+Joylashuvi : Germaniya Myunxen ;
+rangim : oq , rizil , qora ;
+    
+    `
+     },
+     bugati:function(){
+    return `ismim : Bugati ;
+Tarmog'i :	Mashinasozlik ;
+Qachon asos solingan : 1909-yil ;
+Joylashuvi	: Fransiya Molsem ;
+Mahsulot(lar)i : Supercar Gipercar hashamatli mshinalar ;`  
+     },
+     lambarjini:function(){
+    return `ismim : lambarjini ; 
+Turi :	Sho'ba korxona ;
+Qachon asos solingan : 1963-yil ;
+Joylashuvi : Italiya Sant'Agata Bolognese ;
+Sof foydasi : 10,1 million yevro (2014) ;`
+     },
+     chery:function(){
+    return `Turi : Davlat korparatsiyasi ;
+Qachon asos solingan :  8-yanvar, 1997-yil ;
+Joylashuvi : Uxu, Anxoy XXR ;
+Mahsulot(lar)i : Avtomobillar ;
+Hududiy xizmati : Dunyo bo'ylab ;`
+     }
+}
+if(mashina == "mers"  ){
+    console.log(mashinalar.mers());
+}
+if(mashina == "bmw"  ){
+    console.log(mashinalar.bmw());
+}
+if(mashina == "bugati"  ){
+    console.log(mashinalar.bugati());
+}
+if(mashina == "lambarjini"  ){
+    console.log(mashinalar.lambarjini());
+}
+if(mashina == "chery"  ){
+    console.log(mashinalar.chery());
+}
+
+    </script>
+</body>
+</html> 
