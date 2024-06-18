@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        .contener{
+            width: 50%;
+            height: 85vh;
+            /* border: 1px solid red;  */
+        }
+        .con{
+            width: 100%;
+            height: 30vh;
+            background-color: red;
+        }
+        .con1{
+            overflow-x: hidden;
+        }
+       .inp1 {
+            width: 50%;
+            height: 10vh;
+            border: none;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+       
+        .btn1{
+            width: 23%;
+            height: 10.3vh;
+            border: none;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        .btn2 , .btn3 , .btn4 , .btn5 , .btn6{
+            width: 100%;
+            height: 6vh;
+            margin-top: 30px;
+            border: none;
+        }
+        .span1 , .span2 , .span3 , .span4 , .span5{
+            position: relative;
+            left: 330px;
+            top: -63px;
+            font-size: 30px;
+
+        }
+        .h2 , .h3 , .h4 , .h5 , .h6{
+            position: relative;
+            top: -15px;
+          
+        }
+        .web1  {
+            text-decoration: line-through;
+        }
+        .web2  {
+            text-decoration: line-through;
+        }
+        .web3  {
+            text-decoration: line-through;
+        }
+        .web4  {
+            text-decoration: line-through;
+        }
+    </style>
+    <center>
+        <div class="contener">
+            <div class="con">
+                <input type="text" class="inp1">
+                <button class="btn1">Send</button>
+            </div>
+            <div class="con1">
+                <button class="btn2"><h2 class="h2">Dovudjon 👨</h2><span  class="span1">❌</span></button>
+                <button class="btn3"><h2 class="h3">Dovudjon 👨</h2><span  class="span2">❌</span></button>
+                <button class="btn4"><h2 class="h4">Dovudjon 👨</h2><span  class="span3">❌</span></button>
+                <button class="btn5"><h2 class="h5">Dovudjon 👨</h2><span  class="span4">❌</span></button>
+                <button style="display: none;" class="btn6"><h2 class="h6"></h2><span style="position: relative;top: -60px;"  class="span5">❌</span></button>
+            </div>
+        </div>
+    </center>
+    <script>
+        let  inp1 = document.querySelector(".inp1")
+        let  btn1 = document.querySelector(".btn1")
+        let  btn2 = document.querySelector(".btn2")
+        let  btn3 = document.querySelector(".btn3")
+        let  btn4 = document.querySelector(".btn4")
+        let  btn5 = document.querySelector(".btn5")
+        let  btn6 = document.querySelector(".btn6")
+        let  span1  = document.querySelector(".span1")
+        let  span2  = document.querySelector(".span2")
+        let  span3  = document.querySelector(".span3")
+        let  span4  = document.querySelector(".span4")
+        let  span5  = document.querySelector(".span5")
+        let  h6  = document.querySelector(".h6")
+        let  h2  = document.querySelector(".h2")
+        let  h3  = document.querySelector(".h3")
+        let  h4  = document.querySelector(".h4")
+        let  h5  = document.querySelector(".h5")
+
+h2.addEventListener("click"  , ()  =>  {
+    h2.classList.toggle("web1")
+})
+h3.addEventListener("click"  , ()  =>  {
+    h3.classList.toggle("web4")
+})
+h4.addEventListener("click"  , ()  =>  {
+    h4.classList.toggle("web3")
+})
+h5.addEventListener("click"  , ()  =>  {
+    h5.classList.toggle("web2")
+})
+      
